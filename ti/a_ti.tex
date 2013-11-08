@@ -1,0 +1,225 @@
+%
+% exemplo gen�rico de uso da classe iiufrgs.cls
+% $Id: iiufrgs.tex,v 4.6 2003/11/21 22:36:13 avila Exp $
+%
+\documentclass[ti]{iiufrgs}
+% um tipo espec�fico de monografia pode ser informado como par�metro opcional:
+%\documentclass[tese]{iiufrgs}
+% monografias em ingl�s devem receber o par�metro `english':
+%\documentclass[diss,english]{iiufrgs}
+% a op��o `openright' pode ser usada para for�ar in�cios de cap�tulos
+% em p�ginas �mpares
+% \documentclass[openright]{iiufrgs}
+% para gerar uma vers�o somente-frente, basta utilizar a op��o `oneside':
+% \documentclass[oneside]{iiufrgs}
+\usepackage{graphicx}           % pacote para importar figuras
+\usepackage{times}              % pacote para usar fonte Adobe Times
+%\usepackage{mathptmx}          % p/ usar fonte Adobe Times nas f�rmulas
+
+%
+% Informa��es gerais
+%
+\title{Geology Ontologies Survey}
+\author{Jose Martin}{Lozano Aparicio}
+% alguns documentos podem ter varios autores:
+%\author{Flaumann}{Frida Gutenberg}
+%\author{Flaumann}{Klaus Gutenberg}
+
+% orientador e co-orientador s�o opcionais (n�o diga isso pra eles :))
+\advisor[Prof.~Dr.]{Abel}{Mara}
+%\coadvisor[Prof.~Dr.]{Knuth}{Donald Ervin}
+
+% a data deve ser a da defesa; se nao especificada, s�o gerados
+% mes e ano correntes
+%\date{maio}{2001}
+
+% o nome do curso pode ser redefinido (ex. para TCs)
+%\course{Curso de Especializa��o em Cacha�a}
+
+% o local de realiza��o do trabalho pode ser especificado (ex. para TCs)
+% com o comando \location:
+%\location{Itaquaquecetuba}{SP}
+
+% itens individuais da nominata podem ser redefinidos com os comandos
+% abaixo:
+% \renewcommand{\nominataReit}{Prof\textsuperscript{a}.~Wrana Maria Panizzi}
+% \renewcommand{\nominataReitname}{Reitora}
+% \renewcommand{\nominataPRE}{Prof.~Jos{\'e} Carlos Ferraz Hennemann}
+% \renewcommand{\nominataPREname}{Pr{\'o}-Reitor de Ensino}
+% \renewcommand{\nominataPRAPG}{Prof\textsuperscript{a}.~Joc{\'e}lia Grazia}
+% \renewcommand{\nominataPRAPGname}{Pr{\'o}-Reitora Adjunta de P{\'o}s-Gradua{\c{c}}{\~a}o}
+% \renewcommand{\nominataDir}{Prof.~Philippe Olivier Alexandre Navaux}
+% \renewcommand{\nominataDirname}{Diretor do Instituto de Inform{\'a}tica}
+% \renewcommand{\nominataCoord}{Prof.~Carlos Alberto Heuser}
+% \renewcommand{\nominataCoordname}{Coordenador do PPGC}
+% \renewcommand{\nominataBibchefe}{Beatriz Regina Bastos Haro}
+% \renewcommand{\nominataBibchefename}{Bibliotec{\'a}ria-chefe do Instituto de Inform{\'a}tica}
+% \renewcommand{\nominataChefeINA}{Prof.~Jos{\'e} Valdeni de Lima}
+% \renewcommand{\nominataChefeINAname}{Chefe do \deptINA}
+% \renewcommand{\nominataChefeINT}{Prof.~Leila Ribeiro}
+% \renewcommand{\nominataChefeINTname}{Chefe do \deptINT}
+
+% A seguir s�o apresentados comandos espec�ficos para alguns
+% tipos de documentos.
+
+% Relat�rio de Pesquisa [rp]:
+% \rp{123}             % numero do rp
+% \financ{CNPq, CAPES} % orgaos financiadores
+
+% Trabalho Individual [ti]:
+% \ti{123}     % numero do TI
+% \ti[II]{456} % no caso de ser o segundo TI
+
+% Trabalho de Conclus�o [tc]:
+% al�m de definir explicitamente o nome do curso (\course) e o local
+% de realiza��o (\location), � necess�rio redefinir a nominata,
+% pois as informa��es necess�rias dependem do curso. Ex.:
+%\renewcommand{\nominata}{
+%        UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL\\
+%        Reitora: Prof\textsuperscript{a}.~Wrana Maria Panizzi\\
+%        Pr�-Reitor de Ensino: Prof.~Jos� Carlos Ferraz Hennemann\\
+%        Diretor do Instituto de Inform�tica: Prof.~Philippe Olivier Alexandre Navaux\\
+%        Coordenador do curso: Prof.~Seu Creysson\\
+%        Bibliotec�ria-chefe do Instituto de Inform�tica: Beatriz Regina Bastos Haro
+%}
+
+% Monografias de Especializa��o [espec]:
+% \espec{Redes e Sistemas Distribu�dos}      % nome do curso
+% \coord[Profa.~Dra.]{Weber}{Taisy da Silva} % coordenador do curso
+% \dept{INA}                                 % departamento relacionado
+
+%
+% palavras-chave
+% iniciar todas com letras min�sculas, exceto no caso de abreviaturas
+%
+\keyword{Ontology}
+\keyword{Geology}
+\keyword{taxonomy}
+\keyword{standard}
+
+
+%
+% inicio do documento
+%
+\begin{document}
+
+% folha de rosto
+% �s vezes � necess�rio redefinir algum comando logo antes de produzir
+% a folha de rosto:
+% \renewcommand{\coordname}{Coordenadora do Curso}
+%\maketitle
+
+% dedicatoria
+\clearpage
+%\begin{flushright}
+%\mbox{}\vfill
+%{\sffamily\itshape
+%There are falls and defeats to achieve a goal,\\
+%But with God everything is possible to do''\\}
+%--- \textsc{Sir~Jose Lozano}
+%\end{flushright}
+
+% agradecimentos
+%\chapter*{Acknowledgements}
+%This thesis grew out of a series of meetings and discussions my supervisor Dr ~Mara Abel. All her advices help me to overcome the different problems that aroused during the project, since the planning of the topic to the conclusion of it. I thank a lot to my supervisor Mara Abel because her constant correction makes me a better person and enhance the quality of my work.
+
+% sumario
+\tableofcontents
+
+% lista de abreviaturas e siglas
+% o parametro deve ser a abreviatura mais longa
+%\begin{listofabbrv}{SPMD}
+%        \item[UX] User Experience
+%        \item[HCI] Human Computer Interaction
+%        \item[VQL] Visual Query Language
+%        \item[VQS] Visual Query System
+%        \item[EUD] End-user development 
+%\end{listofabbrv}
+
+% idem para a lista de s�mbolos
+%\begin{listofsymbols}{$\alpha\beta\pi\omega$}
+%       \item[$\sum{\frac{a}{b}}$] Somat�rio do produt�rio
+%       \item[$\alpha\beta\pi\omega$] Fator de inconst�ncia do resultado
+%\end{listofsymbols}
+
+% lista de figuras
+%\listoffigures
+
+% lista de tabelas
+%\listoftables
+
+% resumo na l�ngua do documento
+\begin{abstract}
+The need of integration of different fields of geoscience is valuable and important for the petroleum exploration and production. We analyze the different taxonomies, standards and ontologies that have been developed for the area of geoscience in order to find similarities concepts between models to establish the way we can integrate them. In addition, this review will describe the fundamental concepts of ontologies, geology and detailed description of each geology ontology. 
+\end{abstract}
+
+% introducao
+\include{ch-intro/introduction}
+\include{ch-ontologias/ontology}
+\include{ch-geologia/geology}
+\include{ch-petro-onto/taxonomy}
+
+\begin{thebibliography}{este-parametro-nao-eh-usado-pelo-estilo-ABNT}
+
+\bibitem[ABEL et~al.(2005)]{abel:2005} ABEL, M.; SILVA, L.; CAMPBELL, J.; DE ROS, L.\@ \textbf{ Knowledge acquisition and in-terpretation problem-solving methods for visual expertise: Study of petroleum reservoir evaluation}, Journal of Petroleum Science and Engineering, Volume 47, Issues 1–2, 15 May 2005, Pages 51-69, ISSN 0920-4105.
+
+\bibitem[ABEL et~al.(2012)]{abel:2012}ABEL, M.; LORENZATTI, A.; DE ROS, L.; PAESI DA SILVA, O.; BERNARDES, A.; GOLBERG, K.; SCHERER, C.\@. \textbf{Lithologic Logs in the Tablet through  Ontology-Based Facies Description}, In AAPG Annual Convention and Exhibition , 2012.
+
+\bibitem[BAADE et~al.(2003)]{baade:2003}BAADE, F.; CALVANESE, D.; MCGUINNESS, D. L.; NARDI, D.; PATEL-SCHNEIDER, P. F.,\@ \textbf{The 	Description Logic Handbook: Theory, Implementation, and Applications},	1st Ed., 2003.
+
+\bibitem[BARKER, 1999]{barker:1999}BARKER, C\@. \textbf{Petroleum geochemistry in exploration and development; Part 1}, 	Principles and processes, The Leading Edge, June 1999, v. 18, p. 678.
+
+\bibitem[BARKER, 1999]{barker:1999b}BARKER, C\@. \textbf{Petroleum geochemistry in exploration and development; Part 2}, 	Principles and processes, The Leading Edge, June 1999, v. 18, p. 678.
+
+\bibitem[BORST, 1997]{borst:97}BORST, W. N.: Construction of Engineering Ontologies for Knowledge Sharing and Reuse. Thesis, Centre for Telematica and Information Technology, University of Tweenty, The Netherlands, 1997
+
+\bibitem[BRODARIC, 2008]{brodaric:2008}BRODARIC, B.\@ \textbf{Science Knowledge Infrastructure Ontology 3.0}, In UK e-Science Technical Report Series, 2008.
+
+\bibitem[BRODARIC;PROBST, 2008]{brodaric:2008b}BRODARIC, B.; PROBST, F.\@\textbf{DOLCE ROCKS: Integrating Geoscience Ontologies with DOLCE}, In Semantic Scientific Knowledge Integration, AAAI/SSS Workshop,  2008.
+
+\bibitem[CARBONERA, 2012]{carbonera:2012}CARBONERA, J.\@\textbf{ Raciocínio sobre conhecimento visual: Um estudo em Estratigrafia 	Sedimentar},2012. Tese (Doutorado em Ciência da Computação) - Instituto de 	Informática, 	UFRGS, Porto Alegre.
+
+\bibitem[DEAN et~al.(2004)]{dean:2004}DEAN, M.; SCHREIBER, G.; BECHHOFER, S.; VAN HARMELEN, F.; HENDLER, J.; HORROCKS, I.; MCGUINNESS, D.; PATEL-SCHNEIDER, P.; STEIN, L\@. \textbf{OWL web ontology language reference}, In W3C Recommendation February, 2004.
+
+\bibitem[GANGEMI et~al.(2002)]{gangemi:2002}GANGEMI, A.; GUARINO, N.; MASOLO, C.; OLTRAMARI, A.; SCHNEIDER, L.\@ \textbf{Sweetening Ontologies with DOLCE}, In Proceedings of the 13th International Conference on Knowledge Engineering and Knowledge Management. Ontologies and the Semantic Web, 2002, pages 166-181.
+
+\bibitem[GOMEZ;FERNANDEZ;CORCHO, 2004]{gomez:2004}GOMEZ, A.; FERNANDEZ, M.; CORCHO, O.\@ \textbf{Ontological Engineering: With Examples from the Areas of Knowledge Management},In e-Commerce and the Semantic Web. London, UK: Springer-Verlag, 2004.
+
+\bibitem[GUARINO, 1998]{guarino:1998}GUARINO N. \@ \textbf{Formal Ontology and Information Systems}, In Proceedings of FOIS98, Trento, Italy, pages 3-15.
+
+\bibitem[GUARINO;WELTY, 2009]{guarino:2009}GUARINO, N; WELTY, C.\@ \textbf{An overview of OntoClean}, Handbook on Ontologies, 2009, Pages 201-220.
+
+\bibitem[GUIZZARDI;WAGNER, 2004]{guizardi:2004}GUIZZARDI G; WAGNER G.\@ \textbf{A Unified Foundational Ontology and some Applications of it in Business Modeling.}, In: Grundspenkis J, Kirikova M Proceedings of the CAiSE'04 Workshops. Proceedings of the CAiSE'04 Workshops. Riga, Latvia 2004.
+
+\bibitem[GUIZZARDI;WAGNER, 2005]{guizardi:2005a}GUIZZARDI, G.; WAGNER, G.\@ \textbf{Towards Ontological Foundations for Agent Modelling Concepts Using the Unified Fundational Ontology (UFO)}. In Agent-Oriented Information Systems II,2005. 
+\bibitem[GUIZZARDI, 2005]{guizardi:2005b}GUIZZARDI, G.\@ \textbf{Ontological Foundations for Structural Conceptual Models}, PhD Thesis, University of Twente, The Netherlands, 2005.
+
+\bibitem[GUIZZARDI;WAGNER, 2008]{guizardi:2008}GUIZZARDI, G.; WAGNER, G.\@ \textbf{What's in a Relationship: An Ontological Analysis}, In the Proceedings of 27th International Conference on Conceptual Modeling, Barcelona, LNCS 5231, Springer Verlag, 2008.
+
+\bibitem[GRUBER, 1993]{gruber:93}GRUBER, T. R. \@ \textbf{A Translation Approach to Portable Ontology Specifications}, Knowledge Acquisition,1993.
+
+\bibitem[HUNTER, 2003]{hunter:2003}HUNTER, J.\@ \textbf{Enhancing the semantic interoperability of multimedia through a core 	ontology}, In Circuits and Systems for Video Technology, IEEE Transactions 	on , vol.13, no.1, pp.49,58, Jan 2003.
+
+\bibitem[HWANG;NAM;RYU, 2012]{hwang:2012}HWANG, J.; NAM, K.; RYU, K.\@ \textbf{Designing and implementing a geologic information system using a spatiotemporal ontology model for a geologic map of Korea}, Computers Geosciences, Volume 48, November 2012, Pages 173-186.
+
+\bibitem[LAVORSEN, 1958]{lavorsen:1958} LAVORSEN, A.\@ \textbf{ Geology of Petroleum}, 1958, Book.
+
+\bibitem[NECHES et~al.(1991)]{neches:1991}NECHES, R.; FIKES, R.; FININ, T.; GRUBER, T.; PATIL, R.; SENATOR, T.; SWARTOUT, W.R.\@ \textbf{Enabling Technology for Knowledge Sharing}. AI Magazine, page 36-56, 	1991.
+
+\bibitem[NILES, 2001]{niles:2001}NILES, I.; PEASE, A.\@ \textbf{Towards a standard upper ontology}. In Proceedings of the 	international conference on Formal Ontology in 	Information System, 2001,pages 2-9.
+
+\bibitem[ORSTROM;ANDERSEN;SCHARFE, 2005]{orstrom:2005}ORSTROM, P.; ANDERSEN, J.; SCHARFE, H.\@ \textbf{What Has Happened to Ontology}, In Conceptual Structures: Common Semantics for Sharing Knowledge, 2005, 425-438.
+
+
+\bibitem[SMITH;WELTY, 2001]{smith:2001} SMITH, B; WELTY,C.\@. \textbf{Ontology: towards a new synthesis}, In Proceedings of the international conference on Formal Ontology in Information System, 2001, pages 3-9.
+
+\bibitem[STEARN;CARROLL, 1989]{stearn:1989}STEARN, C.W.;CARROLL, R.L.\@\textbf{Paleontology: The Record of Life.} Wiley, 1989.
+
+\bibitem[STUDER;BENJAMINS;FENSEL, 1998]{studer:98}STUDER, R.; BENJAMINS, V. R.;FENSEL, D.\@ \textbf{ Knowledge Engineering: Principles and Methods.}, In: IEEE Transactions on Knowledge and Data Engineering, 1998. 
+
+\bibitem[TRIPATHI;BABAIE, 2008]{tripathi:2008}TRIPATHI A.;BABAIE, H.\@.\textbf{Developing a modular hydrogeology ontology by extending the SWEET upper-level ontologies}, Computers Geosciences, Volume 34, Issue 9, September 2008, Pages 1022-1033.
+
+
+
+\end{thebibliography}
+\end{document}

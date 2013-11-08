@@ -1,0 +1,432 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.3)  29 OCT 2013 18:58
+entering extended mode
+**a_ti.tex
+(C:\Users\jose\Videos\ti\a_ti.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(C:\Users\jose\Videos\ti\iiufrgs.cls
+Document Class: iiufrgs 2005/01/14 v4.3.1 Formatacao de documentos para o II/UF
+RGS
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(C:\Users\jose\Videos\ti\english.babel)
+("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
+Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(C:\Users\jose\Videos\ti\iidefs.sty
+Package: iidefs 
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count89
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count90
+)
+\ii@topmargin=\skip45
+\ii@pagenummargin=\skip46
+\ii@bottommargin=\skip47
+\ii@sidemargin=\skip48
+\c@ii@authorcount=\count91
+\c@kwcounter=\count92
+\titlepagewinwidth=\skip49
+\titlepagewinheight=\skip50
+\titlepagewinvoffset=\skip51
+\ii@chapnumindent=\skip52
+)
+(C:\Users\jose\Videos\ti\ti.def
+File: ti.def 2002/12/12 Trabalho Individual
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(C:\Users\jose\Videos\ti\a_ti.aux
+(C:\Users\jose\Videos\ti\ch-intro/introduction.aux)
+(C:\Users\jose\Videos\ti\ch-ontologias/ontology.aux)
+(C:\Users\jose\Videos\ti\ch-geologia/geology.aux)
+(C:\Users\jose\Videos\ti\ch-petro-onto/taxonomy.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 104.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             macros/latex/contrib/pageslts/ 
+(lastpage)             or
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             ! on input line 104.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count93
+\scratchdimen=\dimen106
+\scratchbox=\box26
+\nofMPsegments=\count94
+\nofMParguments=\count95
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count96
+\MPscratchDim=\dimen107
+\MPnumerator=\count97
+\makeMPintoPDFobject=\count98
+\everyMPtoPDFconversion=\toks16
+)
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 127.
+
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <16> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 127.
+
+(C:\Users\jose\Videos\ti\a_ti.toc
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+ []  
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--3
+ []  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+ []  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+ []  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+ []  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+ []  
+ []
+
+)
+\tf@toc=\write3
+ [1
+
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+
+]
+(C:\Users\jose\Videos\ti\ch-intro/introduction.tex [3
+
+
+])
+Underfull \hbox (badness 10000) has occurred while \output is active
+\OT1/ptm/m/n/10.95 4
+ []
+
+[4] (C:\Users\jose\Videos\ti\ch-ontologias/ontology.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ∂ in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no Ô in font ptmr7t!
+Missing character: There is no ¨ in font ptmr7t!
+Missing character: There is no Å in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+ [5
+
+
+
+]
+(C:\Users\jose\Videos\ti\ch-ontologias/semanticweb.tex
+
+LaTeX Warning: Reference `fig:sw1' on page 6 undefined on input line 3.
+
+) (C:\Users\jose\Videos\ti\ch-ontologias/foundational.tex
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+
+(C:\Users\jose\Videos\ti\ch-ontologias/dolce.tex
+
+LaTeX Warning: Reference `fig:dolce' on page 6 undefined on input line 4.
+
+) (C:\Users\jose\Videos\ti\ch-ontologias/ufo.tex
+Underfull \hbox (badness 10000) has occurred while \output is active
+\OT1/ptm/m/n/10.95 6
+ []
+
+[6]
+
+LaTeX Warning: Reference `fig:ufoa' on page 7 undefined on input line 8.
+
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ¥ in font ptmr7t!
+
+LaTeX Warning: Reference `fig:ufob' on page 7 undefined on input line 10.
+
+[7]
+
+LaTeX Warning: Reference `fig:ufoc' on page 8 undefined on input line 12.
+
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ¥ in font ptmr7t!
+) (C:\Users\jose\Videos\ti\ch-ontologias/gfo.tex)))
+Underfull \hbox (badness 10000) has occurred while \output is active
+\OT1/ptm/m/n/10.95 8
+ []
+
+[8] (C:\Users\jose\Videos\ti\ch-geologia/geology.tex
+
+LaTeX Warning: Reference `fig:petrogeo' on page 9 undefined on input line 7.
+
+
+Overfull \hbox (5.06963pt too wide) in paragraph at lines 6--8
+[]\OT1/ptm/m/n/12 Before de-fine petroleum ge-ol-ogy, we will de-scribe the con
+-cept of Petroleum. Petroleum
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+) [9
+
+
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\OT1/ptm/m/n/10.95 10
+ []
+
+[10] (C:\Users\jose\Videos\ti\ch-petro-onto/taxonomy.tex
+(C:\Users\jose\Videos\ti\ch-petro-onto/koreageomap.tex
+<ch-petro-onto/figures/geokorean.png, id=37, 1182.66844pt x 663.22781pt>
+File: ch-petro-onto/figures/geokorean.png Graphic file (type png)
+
+<use ch-petro-onto/figures/geokorean.png>
+Package pdftex.def Info: ch-petro-onto/figures/geokorean.png used on input line
+ 8.
+(pdftex.def)             Requested size: 426.79135pt x 239.33867pt.
+
+<ch-petro-onto/figures/geokorean2.png, id=39, 938.00438pt x 709.90219pt>
+File: ch-petro-onto/figures/geokorean2.png Graphic file (type png)
+
+<use ch-petro-onto/figures/geokorean2.png>
+Package pdftex.def Info: ch-petro-onto/figures/geokorean2.png used on input lin
+e 18.
+(pdftex.def)             Requested size: 554.82045pt x 569.07074pt.
+)
+
+Package natbib Warning: Citation `usgs2009' on page 11 undefined on input line 
+4.
+
+
+Overfull \hbox (5.84126pt too wide) in paragraph at lines 4--6
+\OT1/ptm/m/n/12 the U.S. Ge-o-log-i-cal Sur-vey's Na-tional Co-op-er-a-tive Ge-
+o-logic Map-ping Pro-gram (NCGMP).
+ []
+
+<ch-petro-onto/figures/mapa1.png, id=40, 617.30624pt x 409.53pt>
+File: ch-petro-onto/figures/mapa1.png Graphic file (type png)
+
+<use ch-petro-onto/figures/mapa1.png>
+Package pdftex.def Info: ch-petro-onto/figures/mapa1.png used on input line 9.
+(pdftex.def)             Requested size: 384.1096pt x 254.83081pt.
+
+
+Package natbib Warning: Citation `usgs2009' on page 11 undefined on input line 
+10.
+
+
+Package natbib Warning: Citation `energistics2012' on page 11 undefined on inpu
+t line 16.
+
+) [11
+
+
+
+ <C:/Users/jose/Videos/ti/ch-petro-onto/figures/geokorean.png>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\OT1/ptm/m/n/10.95 12
+ []
+
+[12 <C:/Users/jose/Videos/ti/ch-petro-onto/figures/geokorean2.png>] [13 <C:/Use
+rs/jose/Videos/ti/ch-petro-onto/figures/mapa1.png>]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ì in font ptmr7t!
+
+Underfull \hbox (badness 2326) in paragraph at lines 168--169
+[]\OT1/ptm/m/n/12 BAADE, F.; CAL-VANESE, D.; MCGUIN-NESS, D. L.; NARDI, D.; PAT
+EL-
+ []
+
+Missing character: There is no √ in font ptmb7t!
+Missing character: There is no ≠ in font ptmb7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ß in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ° in font ptmr7t!
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\OT1/ptm/m/n/10.95 14
+ []
+
+[14
+
+
+] 
+AED: lastpage setting LastPage
+[15]
+
+Package natbib Warning: There were undefined citations.
+
+(C:\Users\jose\Videos\ti\a_ti.aux
+(C:\Users\jose\Videos\ti\ch-intro/introduction.aux)
+(C:\Users\jose\Videos\ti\ch-ontologias/ontology.aux)
+(C:\Users\jose\Videos\ti\ch-geologia/geology.aux)
+(C:\Users\jose\Videos\ti\ch-petro-onto/taxonomy.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2291 strings out of 493921
+ 31549 string characters out of 3147286
+ 91819 words of memory out of 3000000
+ 5511 multiletter control sequences out of 15000+200000
+ 19368 words of font info for 40 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 41i,6n,29p,2154b,261s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
+mes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on a_ti.pdf (15 pages, 562950 bytes).
+PDF statistics:
+ 74 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+

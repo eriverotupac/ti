@@ -1,0 +1,17 @@
+\select@language {english}
+\contentsline {chapter}{Abstract}{2}
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{3}
+\contentsline {chapter}{\numberline {2}Ontology}{5}
+\contentsline {section}{\numberline {2.1}Definition}{5}
+\contentsline {section}{\numberline {2.2}Semantic Web}{6}
+\contentsline {section}{\numberline {2.3}Foundational Ontologies}{6}
+\contentsline {subsection}{\numberline {2.3.1}dolce}{6}
+\contentsline {subsection}{\numberline {2.3.2}UFO}{7}
+\contentsline {subsection}{\numberline {2.3.3}GFO}{8}
+\contentsline {chapter}{\numberline {3}geology}{9}
+\contentsline {section}{\numberline {3.1}Petroleum Geology}{9}
+\contentsline {chapter}{\numberline {4}Geology Ontologies}{11}
+\contentsline {section}{\numberline {4.1}Geologic Map of Korea}{11}
+\contentsline {section}{\numberline {4.2}NCGMP09}{11}
+\contentsline {section}{\numberline {4.3}WITSML Lithology}{13}
+\contentsline {chapter}{References}{14}
